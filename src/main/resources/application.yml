@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:file_upload_download
+    username: fconsiglio98
+    password: inserirePassword
+  jpa:
+    hibernate:
+      ddl-auto: create
+  h2:
+    console:
+      enabled: true
+
+fileRepositoryFolder: C:\\Users\\franc\\Documents\\DEVELHOPE\\JAVA\\Java Spring\\file-upload-download-1\\uploaded
